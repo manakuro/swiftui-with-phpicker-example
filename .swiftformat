@@ -1,0 +1,5 @@
+--indent 2
+--importgrouping alphabetized
+
+--exclude Pods,Carthage
+
