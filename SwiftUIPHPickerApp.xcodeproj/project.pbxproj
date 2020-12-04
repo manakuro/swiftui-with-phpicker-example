@@ -140,6 +140,8 @@
 				BEA6A95C257A28AB00C50152 /* Sources */,
 				BEA6A95D257A28AB00C50152 /* Frameworks */,
 				BEA6A95E257A28AB00C50152 /* Resources */,
+				BEA6A994257A2B4E00C50152 /* Swift Lint */,
+				BEA6A995257A2B6D00C50152 /* Swift Format */,
 			);
 			buildRules = (
 			);
@@ -253,6 +255,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEA6A994257A2B4E00C50152 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "scripts/swiftLint.sh\n";
+		};
+		BEA6A995257A2B6D00C50152 /* Swift Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "scripts/swiftFormat.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEA6A95C257A28AB00C50152 /* Sources */ = {
