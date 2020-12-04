@@ -13,6 +13,8 @@
 		BEA6A96B257A28AE00C50152 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA6A96A257A28AE00C50152 /* Preview Assets.xcassets */; };
 		BEA6A976257A28AF00C50152 /* SwiftUIPHPickerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A975257A28AF00C50152 /* SwiftUIPHPickerAppTests.swift */; };
 		BEA6A981257A28AF00C50152 /* SwiftUIPHPickerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A980257A28AF00C50152 /* SwiftUIPHPickerAppUITests.swift */; };
+		BEA6A99A257A322A00C50152 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A999257A322A00C50152 /* Collection.swift */; };
+		BEA6A99F257A331C00C50152 /* ImageListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A99E257A331C00C50152 /* ImageListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BEA6A97C257A28AF00C50152 /* SwiftUIPHPickerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPHPickerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA6A980257A28AF00C50152 /* SwiftUIPHPickerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPHPickerAppUITests.swift; sourceTree = "<group>"; };
 		BEA6A982257A28AF00C50152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA6A999257A322A00C50152 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		BEA6A99E257A331C00C50152 /* ImageListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				BEA6A967257A28AE00C50152 /* Assets.xcassets */,
 				BEA6A96C257A28AE00C50152 /* Info.plist */,
 				BEA6A969257A28AE00C50152 /* Preview Content */,
+				BEA6A999257A322A00C50152 /* Collection.swift */,
+				BEA6A99E257A331C00C50152 /* ImageListItem.swift */,
 			);
 			path = SwiftUIPHPickerApp;
 			sourceTree = "<group>";
@@ -300,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA6A99A257A322A00C50152 /* Collection.swift in Sources */,
+				BEA6A99F257A331C00C50152 /* ImageListItem.swift in Sources */,
 				BEA6A966257A28AB00C50152 /* ContentView.swift in Sources */,
 				BEA6A964257A28AB00C50152 /* SwiftUIPHPickerAppApp.swift in Sources */,
 			);
