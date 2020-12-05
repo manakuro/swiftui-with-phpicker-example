@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		BEA6A981257A28AF00C50152 /* SwiftUIPHPickerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A980257A28AF00C50152 /* SwiftUIPHPickerAppUITests.swift */; };
 		BEA6A99A257A322A00C50152 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A999257A322A00C50152 /* Collection.swift */; };
 		BEA6A99F257A331C00C50152 /* ImageListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A99E257A331C00C50152 /* ImageListItem.swift */; };
+		BEA6A9A7257B05C300C50152 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6A9A6257B05C300C50152 /* ImagePicker.swift */; };
+		BEA6A9AD257B15C700C50152 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = BEA6A9AC257B15C700C50152 /* PromiseKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		BEA6A982257A28AF00C50152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA6A999257A322A00C50152 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
 		BEA6A99E257A331C00C50152 /* ImageListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageListItem.swift; sourceTree = "<group>"; };
+		BEA6A9A6257B05C300C50152 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA6A9AD257B15C700C50152 /* PromiseKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +110,7 @@
 				BEA6A969257A28AE00C50152 /* Preview Content */,
 				BEA6A999257A322A00C50152 /* Collection.swift */,
 				BEA6A99E257A331C00C50152 /* ImageListItem.swift */,
+				BEA6A9A6257B05C300C50152 /* ImagePicker.swift */,
 			);
 			path = SwiftUIPHPickerApp;
 			sourceTree = "<group>";
@@ -154,6 +159,9 @@
 			dependencies = (
 			);
 			name = SwiftUIPHPickerApp;
+			packageProductDependencies = (
+				BEA6A9AC257B15C700C50152 /* PromiseKit */,
+			);
 			productName = SwiftUIPHPickerApp;
 			productReference = BEA6A960257A28AB00C50152 /* SwiftUIPHPickerApp.app */;
 			productType = "com.apple.product-type.application";
@@ -225,6 +233,9 @@
 				Base,
 			);
 			mainGroup = BEA6A957257A28AB00C50152;
+			packageReferences = (
+				BEA6A9AB257B15C700C50152 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+			);
 			productRefGroup = BEA6A961257A28AB00C50152 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -308,6 +319,7 @@
 			files = (
 				BEA6A99A257A322A00C50152 /* Collection.swift in Sources */,
 				BEA6A99F257A331C00C50152 /* ImageListItem.swift in Sources */,
+				BEA6A9A7257B05C300C50152 /* ImagePicker.swift in Sources */,
 				BEA6A966257A28AB00C50152 /* ContentView.swift in Sources */,
 				BEA6A964257A28AB00C50152 /* SwiftUIPHPickerAppApp.swift in Sources */,
 			);
@@ -623,6 +635,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BEA6A9AB257B15C700C50152 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.13.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BEA6A9AC257B15C700C50152 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BEA6A9AB257B15C700C50152 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BEA6A958257A28AB00C50152 /* Project object */;
 }
